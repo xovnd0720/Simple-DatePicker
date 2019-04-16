@@ -3,7 +3,6 @@
 //  Simpe DatePicker
 //
 //  Created by amadeus on 16/04/2019.
-//  Copyright © 2019 DIT Apps. All rights reserved.
 //
 
 import UIKit
@@ -21,8 +20,8 @@ class ViewController: UIViewController {
         let locale = Locale(identifier: "ko_KO")
         myDatePicker.locale = locale
         
-        // DatePicker 모드 설종
-        myDatePicker.datePickerMode = UIDatePicker.Mode.date
+        // DatePicker 모드 설정
+        myDatePicker.datePickerMode = UIDatePicker.Mode.time
     }
 
     @IBAction func changeDatePicker(_ sender: Any) {
@@ -31,7 +30,8 @@ class ViewController: UIViewController {
         
         // Date 형을 문자형으로 변환
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd HH:mm EEE"
+   //     formatter.dateFormat = "YY:MM:DD HH:mm "
+       formatter.dateFormat = "a HH:mm "
         outLabel.text = formatter.string(from: selectedData)
     }
 }

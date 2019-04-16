@@ -24,7 +24,7 @@
                                     <!--2019-04-16 02:19:06 +0000-->
                                 </date>
                                 <connections>
-                                    <action selector="changeDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="wh2-lt-HMA"/>
+                                    <action selector="changeDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="d77-ML-brw"/>
                                 </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2E-UR-QCc">
@@ -44,7 +44,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="myDatePicker" destination="hRL-i3-36l" id="7rw-aF-zVn"/>
+                        <outlet property="myDatePicker" destination="hRL-i3-36l" id="nC8-Ik-HjX"/>
                         <outlet property="outLabel" destination="Z2E-UR-QCc" id="Tjg-Nb-xsC"/>
                     </connections>
                 </viewController>
